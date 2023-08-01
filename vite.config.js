@@ -10,8 +10,12 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@': fileURLToPath(new URL('./', import.meta.url)),
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
     }
+  },
+  root: 'src',
+  build: {
+    outDir: '../'
   }
 })
