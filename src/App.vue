@@ -5,7 +5,7 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <img src="/images/logo-only.svg" alt="Red meridian logo" width="64" height="64">
-                        <h1>Put on your warmest socks and get ready to relax</h1>
+                        <h1>Put on your warmest socks and get ready to relax!</h1>
                         <p>meridian is the new cosy corner of ASMR - launching soon.</p>
                         <ul>
                             <li>Totally ad-free</li>
