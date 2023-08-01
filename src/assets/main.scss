@@ -1,0 +1,92 @@
+$primary: #EF626C;
+$secondary: #84DCCF;
+$border-radius: 0rem;
+
+$white:    #FFFFFF !default;
+$gray-100: #EFEFEF !default;
+$gray-200: #DFDFDF !default;
+$gray-300: #CFCFCF !default;
+$gray-400: #AFAFAF !default;
+$gray-500: #9F9F9F !default;
+$gray-600: #7F7F7F !default;
+$gray-700: #5F5F5F !default;
+$gray-800: #3F3F3F !default;
+$gray-900: #1F1F1F !default;
+$black:    #0F0F0F !default;
+
+$body-bg: $black;
+$body-color: $white;
+$card-bg: $gray-900;
+$list-group-bg: $gray-900;
+$list-group-color: inherit;
+$input-group-addon-bg: $gray-800;
+$table-border-color: $black;
+$input-disabled-bg: $gray-900;
+$input-disabled-border-color: $gray-800;
+
+@import "bootstrap/scss/bootstrap";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-weight: 300;
+    background: #1f1f1f;
+}
+
+#app {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #1f1f1f, #000000);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.card {
+    overflow: hidden;
+    border: none;
+}
+
+hr {
+    border-top: 1px solid $gray-800;
+}
+
+.social {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 24px;
+    margin-right: 4px;
+}
